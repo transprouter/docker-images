@@ -1,0 +1,12 @@
+$TTL 1w
+$ORIGIN public.
+@  1D  IN  SOA ns1.public. hostmaster.public. (
+       2002022401 ; serial
+       3H ; refresh
+       15 ; retry
+       1w ; expire
+       3h ; nxdomain ttl
+)
+       IN  NS     ns1.public.
+
+ns1    IN  A      127.0.0.1
